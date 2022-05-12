@@ -16,7 +16,7 @@ import com.voicerss.tts.VoiceProvider;
 public class VoiceRSS {
     
     public static void tts (String name) throws Exception {
-        VoiceProvider tts = new VoiceProvider("b884ff0b7fba480d86ada4b050faeb78");
+        VoiceProvider tts = new VoiceProvider("API_KEY_HERE");
 		
         VoiceParameters params = new VoiceParameters(name, Languages.German_Germany); // German_Germany
         params.setCodec(AudioCodec.WAV);
